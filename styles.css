@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    width: 1200px;
+    height: 710px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/background1.jpg);
+    background-repeat: no-repeat;
+    
+}
+.ticket{
+    width: 450px;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    margin-left: 800px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.country-name-ams, .country-name{
+    padding:60px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: rgb(72, 72, 186);
+}
+.country-name-ams::after{
+    position: absolute;
+    content: '';
+    top: 105px;
+    left: 170px;
+    width: 60px;
+    height: 4px;
+    background-color: rgb(152, 67, 67);
+}
+.country-name-iteam{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    position: relative;
+    top: 45px;
+    margin-left: 80px;
+}
+/* head finished */
+.ticket-iteam{
+    display: flex;
+    justify-content: space-around;
+    
+    list-style-type: none;
+}
+.ticket-iteam-list{
+    padding-top: 100px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #999;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.ticket-iteam-list-number{
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 10px;
+    color: #111;
+    font-weight: bold;
+}
+/* ticket resource finished */
+.about-passenger{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.passenger-name, .passenger-class, .passenger-departure{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #999;
+}
+.name-iteam, .class-iteam, .departure-iteam{
+    font-family: monospace;
+    color: #111;
+    padding-bottom: 15px;
+}
+/* ticket project over */
